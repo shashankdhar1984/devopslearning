@@ -23,7 +23,7 @@ pipeline {
                     }
                     
                 }
-                stage('Test On Node') {
+                stage('Test On Built-In') {
                     agent {
                         label "Built-In"
                     }
@@ -35,3 +35,4 @@ pipeline {
         }
     }
 }
+
